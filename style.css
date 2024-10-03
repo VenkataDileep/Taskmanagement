@@ -1,0 +1,26 @@
+/* Light theme variables */
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --btn-color: #007bff;
+    --btn-text-color: #fff;
+}
+
+/* Dark theme variables */
+body.dark-theme {
+    --bg-color: #2c2c2c;
+    --text-color: #f8f9fa;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.btn {
+    color: var(--btn-text-color);
+}
+
+table {
+    background-color: var(--bg-color);
+}
